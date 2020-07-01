@@ -1,0 +1,6 @@
+zuul:
+  ignoredServices: '*'
+  routes:
+    app-off-goods:
+      path: /offGood/**
+      serviceId: s-offdb
