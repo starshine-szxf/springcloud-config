@@ -4,18 +4,30 @@ zuul:
     app-off-goods:
       path: /offGood/**
       serviceId: s-offdb
-    auth:
-      path: /sauth/**
+    s-auth:
+      path: /auth/**
       serviceId: s-auth
-    index:
-      path: /sindex/**
+    s-index:
+      path: /index/**
       serviceId: s-index
-    marketing:
-      path: /smarketing/**
+    s-marketing:
+      path: /marketing/**
       serviceId: s-marketing
-    member:
-      path: /smember/**
+    s-member:
+      path: /member/**
       serviceId: s-member
-    accountstatement:
-      path: /saccountstatement/**
+    s-accountstatement:
+      path: /accountstatement/**
       serviceId: s-accountstatement
+    s-cart:
+      path: /cart/**
+      serviceId: s-cart
+    s-order:
+      path: /order/**
+      serviceId: s-order
+    s-distribution:
+      path: /distribution/**
+      serviceId: s-distribution
+    s-storage:
+      path: /storage/**
+      serviceId: s-storage
