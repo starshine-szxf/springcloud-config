@@ -1,33 +1,33 @@
 zuul:
 #  ignoredServices: '*'
-  routes:
-    app-off-goods:
-      path: /offGood/**
-      serviceId: s-offdb
-    s-auth:
-      path: /auth/**
-      serviceId: s-auth
-    s-index:
-      path: /index/**
-      serviceId: s-index
-    s-marketing:
-      path: /marketing/**
-      serviceId: s-marketing
-    s-member:
-      path: /member/**
-      serviceId: s-member
-    s-accountstatement:
-      path: /accountstatement/**
-      serviceId: s-accountstatement
-    s-cart:
-      path: /cart/**
-      serviceId: s-cart
-    s-order:
-      path: /order/**
-      serviceId: s-order
-    s-distribution:
-      path: /distribution/**
-      serviceId: s-distribution
-    s-storage:
-      path: /storage/**
-      serviceId: s-storage
+#  routes:
+#    app-off-goods:
+#      path: /offGood/**
+#      serviceId: s-offdb
+#    s-auth:
+#      path: /auth/**
+#      serviceId: s-auth
+#    s-index:
+#      path: /index/**
+#      serviceId: s-index
+#    s-marketing:
+#      path: /marketing/**
+#      serviceId: s-marketing
+#    s-member:
+#      path: /member/**
+#      serviceId: s-member
+#    s-accountstatement:
+#      path: /accountstatement/**
+#      serviceId: s-accountstatement
+#    s-cart:
+#      path: /cart/**
+#      serviceId: s-cart
+#    s-order:
+#      path: /order/**
+#      serviceId: s-order
+#    s-distribution:
+#      path: /distribution/**
+#      serviceId: s-distribution
+#    s-storage:
+#      path: /storage/**
+#      serviceId: s-storage
